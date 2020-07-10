@@ -1,0 +1,20 @@
+install.packages("tidyverse")
+library("tidyverse")
+
+install.packages("ggplot2")
+library("ggplot2")
+
+filePath <- "https://gist.githubusercontent.com/rosaperez13/5fde05bb306b6be359774a424a4c754a/raw/c2ca5a5891d3701fa7922db8592f3a7e4819a898/DATOS_JUEGO_ONLINE_2019.T4_CANTIDADES_JUGADAS-1.csv"
+jugadores <- read.csv(filePath)
+
+view(jugadores)
+
+meses <- (jugadores$Mes)
+años <- (jugadores$Year)
+jugadores.activos <- (jugadores$Cuentas.activas)
+jugadores.nuevos <- (jugadores$Cuentas.nuevas)
+
+ggplot(data= jugadores,aes(x=jugadores.activos, y=años)) + geom_line()
+ggplot(data= jugadores,aes(x=jugadores.nuevos, y=meses)) + geom_col()
+ggplot (data = jugadores) + geom_point(mapping = aes(x=jugadores.activos, y=años)) + geom_smooth(mapping = aes(x=jugadores.activos, y=años))
+

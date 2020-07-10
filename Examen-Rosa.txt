@@ -1,0 +1,29 @@
+commit 4b524fed8efbcf6e3128f87c90510718880d4f55
+Author: Rosa Perez <rosa13pv@hotmail.com>
+Date:   Fri Jul 10 18:27:48 2020 +0200
+
+    Cambiamos el nombre de la carpeta juego a juego1
+
+commit f46c11c1c28aeb4c5cffa3f55d6e9f4441834901
+Author: Rosa Perez <rosa13pv@hotmail.com>
+Date:   Fri Jul 10 18:25:40 2020 +0200
+
+    Añadiendo un archivo con R ggplot.script
+
+commit d33d3fa66560e58eaf4addb2c438f1fe36bd0d8c
+Author: Rosa Perez <rosa13pv@hotmail.com>
+Date:   Fri Jul 10 18:23:38 2020 +0200
+
+    Creando carpeta de juego
+
+commit 4ad57ada31793f3dd16d92f807666492439a515d
+Author: Rosa Perez <rosa13pv@hotmail.com>
+Date:   Fri Jul 10 18:17:42 2020 +0200
+
+    Creando una carpeta de fotos
+
+commit b7174f269c0473e0f19657244db953829931c74c
+Author: Rosa Perez <rosa13pv@hotmail.com>
+Date:   Fri Jul 10 17:44:04 2020 +0200
+
+    Añadiendo un README.md
